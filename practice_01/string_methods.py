@@ -2,3 +2,25 @@
 # Например:
 my_str = 'Какая-то строка'
 print(my_str.upper())
+# капс
+
+print(len(my_str))
+# длина сторки
+
+print(my_str.find('К'))
+# поиск с начала строки
+
+print(my_str.rfind('К'))
+# поиск с конца строки
+
+print(my_str.replace('т' , 'о'))
+# замена в строке
+
+print(my_str.lower())
+# нижний регистр
+
+print(my_str.isalpha())
+# проверка строки все ли символы являются буквами
+
+print(my_str.isnumeric())
+# проверка строки все ли символы являются цифрами
