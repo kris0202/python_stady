@@ -1,6 +1,10 @@
 # Есть строка с перечислением фильмов
 
 my_favorite_movies = 'Терминатор, Пятый элемент, Аватар, Чужие, Назад в будущее'
+print(my_favorite_movies[0:10])
+print(my_favorite_movies[42:57])
+print(my_favorite_movies[12:25])
+print(my_favorite_movies[-22:-17])
 
 # Выведите на консоль с помощью индексации строки, последовательно:
 #   первый фильм
