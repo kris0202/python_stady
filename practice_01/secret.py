@@ -15,6 +15,10 @@ print(secret_message[1][9:13])
 print(secret_message[2][5:15:2])
 print(secret_message[3][7:13][::-1])
 print(secret_message[4][16:21][::-1])
+
+print(secret_message[0][3] + " " + secret_message[1][9:13] + " " + secret_message[2][5:15:2] + " " +
+ secret_message[3][7:13][::-1] + " " + secret_message[4][16:21][::-1])
+
 # Нужно его расшифровать и вывести на консоль в удобочитаемом виде.
 # Должна получиться фраза на русском языке, например: как два байта переслать.
 
