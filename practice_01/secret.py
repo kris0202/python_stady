@@ -19,6 +19,9 @@ print(secret_message[4][16:21][::-1])
 print(secret_message[0][3] + " " + secret_message[1][9:13] + " " + secret_message[2][5:15:2] + " " +
  secret_message[3][7:13][::-1] + " " + secret_message[4][16:21][::-1])
 
+# При использовании f-строк это бы выглядело так:
+print(f'{secret_message[0][3]} {secret_message[1][9:13]} {secret_message[2][5:15:2]} {secret_message[3][7:13][::-1]} {secret_message[4][16:21][::-1]}')
+
 # Нужно его расшифровать и вывести на консоль в удобочитаемом виде.
 # Должна получиться фраза на русском языке, например: как два байта переслать.
 
@@ -42,10 +45,10 @@ print(secret_message[0][3] + " " + secret_message[1][9:13] + " " + secret_messag
 
 # Использовать именно эти переменные тебе не обязательно, можешь их удалить если хочешь 
 # Или просто поменяй их значение под суть задания
-first = None
-second = None
-third = None
-fourth = None
-fifth = None
+# first = None
+# second = None
+# third = None
+# fourth = None
+# fifth = None
 
-print(f'{first} {second} {third} {fourth} {fifth}') #Вот кстати пример использования f-строки
+# print(f'{first} {second} {third} {fourth} {fifth}') #Вот кстати пример использования f-строки
